@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="UserDaoJPA" class="dao.UserDaoJPA"/>
+
+    <bean id="UserService" class="service.UserService">
+        <constructor-arg ref="UserDaoJPA"/>
+    </bean>
+
+    <bean id="ProductDaoJPA" class="dao.ProductDaoJPA"/>
+    <bean id="ProductService" class="service.ProductService">
+
+        <constructor-arg ref="ProductDaoJPA"/>
+    </bean>
+
+    <bean id="BucketDaoJPA" class="dao.BucketDaoJPA"/>
+    <bean id="BucketService" class="service.BucketService">
+        <constructor-arg ref="BucketDaoJPA"/>
+    </bean>
+    <bean id="OrderDaoJPA" class="dao.OrderDaoJPA"/>
+    <bean id="OrderService" class="service.OrderService">
+        <constructor-arg ref="OrderDaoJPA"/>
+    </bean>
+</beans>

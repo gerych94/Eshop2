@@ -1,0 +1,7 @@
+JDBCtest.class
+model\Client.class
+model\Product.class
+model\ProductType.class
+model\OrderStatus.class
+model\Bucket.class
+model\Order.class
