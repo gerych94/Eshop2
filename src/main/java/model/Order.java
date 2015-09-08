@@ -13,7 +13,7 @@ public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id_Order;
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY,optional = false)
     @JoinColumn(name = "id_client" ,referencedColumnName = "id_client")
     private Client client;
     @OneToOne()
@@ -91,7 +91,7 @@ public class Order {
     public String toString() {
         return "Order{" +
                 "id_Order=" + id_Order +
-                ", client=" + client +
+                ", client=" + client.getName() +
                 ", bucket=" + bucket.getBucket() +
                 ", dateCreation=" + dateCreation +
                 ", amount=" + amount +

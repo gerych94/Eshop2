@@ -28,6 +28,7 @@ public class ProductDaoJPA implements IProductDao {
     public void delete(int id) {
        entityManager.getTransaction().begin();
         try {
+
             Product product=entityManager.find(Product.class,id);
             entityManager.remove(product);
             entityManager.getTransaction().commit();

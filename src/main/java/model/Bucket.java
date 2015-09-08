@@ -1,5 +1,9 @@
 package model;
 
+import org.hibernate.annotations.Cascade;
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.Date;
@@ -71,6 +75,14 @@ public class Bucket {
 
     public void setCost(double cost) {
         this.cost = cost;
+    }
+
+    public int getId_Bucket() {
+        return id_Bucket;
+    }
+
+    public void setId_Bucket(int id_Bucket) {
+        this.id_Bucket = id_Bucket;
     }
 
     @Override

@@ -16,7 +16,8 @@ public class UserService implements IUserService {
     }
 
     @Override
-    public void register(Client client) {
+    public void register(String name,String login,String phone,String email,String password) {
+        Client client=new Client(name,login,phone,email,password);
          userDao.create(client);
     }
 
@@ -28,14 +29,14 @@ public class UserService implements IUserService {
     }
 
     @Override
-    public void findByLogin(String login) {
+    public Client findByLogin(String login) {
         try {
-            System.out.println(userDao.search(login).toString());
 
+            return userDao.search(login);
         }catch (Exception e){
             System.out.println("user doesn't exist");
         }
-
+         return null;
     }
 
     @Override
@@ -49,14 +50,17 @@ public class UserService implements IUserService {
     }
 
     @Override
-    public void showAllClients() {
+    public List<Client> showAllClients() {
+        List<Client> clientList=null;
         try{
-            List<Client> clientList=userDao.findAll();
+             clientList=userDao.findAll();
             for (Client c:clientList){
                 System.out.println(c.toString());
             }
         }catch (Exception e){
             System.out.println("set is Empty");
         }
+    return clientList;
     }
+
 }

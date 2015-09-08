@@ -2,6 +2,7 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
     <bean id="UserDaoJPA" class="dao.UserDaoJPA"/>
 
     <bean id="UserService" class="service.UserService">
@@ -21,5 +22,9 @@
     <bean id="OrderDaoJPA" class="dao.OrderDaoJPA"/>
     <bean id="OrderService" class="service.OrderService">
         <constructor-arg ref="OrderDaoJPA"/>
+    </bean>
+    <bean id="AdminDaoJPA" class="dao.AdminDaoJPA"/>
+    <bean id="AdminService" class="service.AdminService">
+        <constructor-arg ref="AdminDaoJPA"/>
     </bean>
 </beans>

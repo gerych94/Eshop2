@@ -11,12 +11,12 @@ public interface IUserService {
 
 
 
-       void register(Client client);
+       void register(String name,String login,String phone,String email,String password);
 
 
        void remove(int id);
-       void findByLogin(String login);
+       Client findByLogin(String login);
        Client findById(int id_client);
 
-       void showAllClients();
+       List<Client> showAllClients();
 }

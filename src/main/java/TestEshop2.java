@@ -16,8 +16,22 @@ public class TestEshop2 {
 
     public static void main(String[] args) {
 
-     ApplicationContext applicationContext=new ClassPathXmlApplicationContext("classpath:app-context.xml");
+/*
+        Client client=new Client("webr","fwr","fre","sdbd","sdbbb");
+        Object object=client;
+        Client client1=(Client)object;
+        System.out.println(client1.toString());*/
 
+
+
+
+     ApplicationContext applicationContext=new ClassPathXmlApplicationContext("classpath:app-context.xml");
+    // IAdminService iAdminService= (IAdminService) applicationContext.getBean("AdminService");
+    // System.out.println(iAdminService.signIn("gerych","12345").toString());
+        IUserService userService= (IUserService) applicationContext.getBean("UserService");
+        Client client=userService.findById(12);
+        System.out.println(client.toString());
+/*
      IUserService userService=(IUserService)applicationContext.getBean("UserService");
      Client client=userService.findById(16);
 
@@ -39,7 +53,7 @@ public class TestEshop2 {
 
      IOrderService iOrderService=(IOrderService)applicationContext.getBean("OrderService");
      Order order=new Order(client,bucket,bucket.getDate(),bucket.getCost(),OrderStatus.NEW);
-     iOrderService.addOrder(order);
+     iOrderService.addOrder(order);*/
 
        /* Client client=new Client("Vasiliy","v","093453420","vas@mail","dwqqw12e");
         IUserDao iUserDao=new UserDaoJPA();

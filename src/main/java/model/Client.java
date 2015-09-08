@@ -5,6 +5,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+
 /**
  * Created by Vitaliy on 21.07.2015.
  */
@@ -26,7 +27,7 @@ public class Client {
     private String email;
     @Column
     private String password;
-    @OneToMany(mappedBy = "client")
+    @OneToMany(mappedBy = "client",fetch = FetchType.LAZY)
     private List<Order> orderList=new ArrayList<>();
 
 
@@ -105,6 +106,7 @@ public class Client {
                 ", phone='" + phone + '\'' +
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
+                ", orderList"+orderList+
                 '}';
     }
 }

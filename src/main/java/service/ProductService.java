@@ -34,18 +34,14 @@ public class ProductService implements IProductService {
     }
 
     @Override
-    public void findProduct(String name) {
-        List<Product> productList=productDao.findOne(name);
-
-try {
-    for (Product p:productList){
-        System.out.println(p.toString());
-    }
-}catch (Exception e){
-    System.out.println("productList doesn't exist");
-}
-
-
+    public List<Product> findProduct(String name) {
+        List<Product> productList=null;
+         try {
+            productList=productDao.findOne(name);
+              }catch (Exception e){
+             System.out.println("productList doesn't exist");
+           }
+        return productList;
     }
 
     @Override
@@ -59,10 +55,10 @@ try {
     }
 
     @Override
-    public void findAll() {
-         List<Product> productList=productDao.findAll();
-        for (Product p:productList){
-            System.out.println(p.toString());
-        }
+    public List<Product> findAll() {
+         List<Product> productList=null;
+        productList=productDao.findAll();
+
+        return productList;
     }
 }

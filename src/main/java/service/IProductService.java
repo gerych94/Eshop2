@@ -17,7 +17,7 @@ public interface IProductService {
 
     void buy(String name);
 
-    void findProduct(String name);
+    List<Product> findProduct(String name);
     Product findOne(int id);
-    void findAll();
+    List<Product> findAll();
 }
