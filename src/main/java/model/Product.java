@@ -5,6 +5,7 @@ import javax.persistence.*;
 /**
  * Created by Vitaliy on 21.07.2015.
  */
+
 @Entity
 @Table(name = "products")
 public class Product {

@@ -13,6 +13,7 @@ import java.io.IOException;
 /**
  * Created by Vitaliy on 23.08.2015.
  */
+
 @WebServlet(name = "DeleteUserByIdServlet",value = "/DeleteUser")
 public class DeleteUserByIdServlet extends HttpServlet {
 

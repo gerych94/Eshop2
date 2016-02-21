@@ -14,6 +14,7 @@ import java.io.IOException;
 /**
  * Created by Vitaliy on 23.08.2015.
  */
+
 @WebServlet(name = "FindUserByIdServlet",value = "/FindUserId")
 public class FindUserByIdServlet extends HttpServlet {
 

@@ -10,4 +10,6 @@ public interface IAdminService {
     Admin signIn(String login,String password);
 
     void register(Admin admin);
+
+    Admin getAdmin();
 }

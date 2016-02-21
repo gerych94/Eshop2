@@ -27,6 +27,7 @@ public class Client {
     private String email;
     @Column
     private String password;
+
     @OneToMany(mappedBy = "client",fetch = FetchType.LAZY)
     private List<Order> orderList=new ArrayList<>();
 

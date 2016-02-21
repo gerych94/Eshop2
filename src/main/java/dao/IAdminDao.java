@@ -11,4 +11,6 @@ public interface IAdminDao {
     Admin validation(String login,String password);
 
     void add(Admin admin);
+
+    Admin getAdmin();
 }

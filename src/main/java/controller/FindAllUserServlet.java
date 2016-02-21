@@ -15,6 +15,7 @@ import java.util.List;
 /**
  * Created by Vitaliy on 23.08.2015.
  */
+
 @WebServlet(name = "FindAllUserServlet",value = "/ShowAllUser")
 public class FindAllUserServlet extends HttpServlet {
 

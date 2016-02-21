@@ -22,15 +22,21 @@ public class TestEshop2 {
         Client client1=(Client)object;
         System.out.println(client1.toString());*/
 
-
-
-
      ApplicationContext applicationContext=new ClassPathXmlApplicationContext("classpath:app-context.xml");
-    // IAdminService iAdminService= (IAdminService) applicationContext.getBean("AdminService");
-    // System.out.println(iAdminService.signIn("gerych","12345").toString());
-        IUserService userService= (IUserService) applicationContext.getBean("UserService");
-        Client client=userService.findById(12);
-        System.out.println(client.toString());
+       IUserService userService= (IUserService) applicationContext.getBean("UserService");
+        Client client=userService.findByLogin("v");
+        System.out.println(client);
+//        IBucketService bucketService= (IBucketService) applicationContext.getBean("BucketService");
+//         Bucket bucket=bucketService.getBucket(2);
+//
+//        IOrderService orderService= (IOrderService) applicationContext.getBean("OrderService");
+//        Order order=new Order(client,bucket,new Date(),bucket.getCost(),OrderStatus.NEW);
+//        orderService.addOrder(order);
+
+
+    /* IAdminService iAdminService= (IAdminService) applicationContext.getBean("AdminService");
+        System.out.println(iAdminService.signIn("gerych", "1111").toString());*/
+
 /*
      IUserService userService=(IUserService)applicationContext.getBean("UserService");
      Client client=userService.findById(16);

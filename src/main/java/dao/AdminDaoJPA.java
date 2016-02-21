@@ -32,4 +32,13 @@ public class AdminDaoJPA implements IAdminDao {
         entityManager.persist(admin);
         entityManager.getTransaction().commit();
     }
+
+    @Override
+    public Admin getAdmin() {
+        entityManager.getTransaction().begin();
+        Admin admin=entityManager.find(Admin.class,1);
+        entityManager.getTransaction().commit();
+        return admin;
+    }
+
 }

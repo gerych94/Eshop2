@@ -12,6 +12,7 @@ import java.util.List;
 /**
  * Created by Vitaliy on 21.07.2015.
  */
+
 @Entity
 @Table(name = "buckets")
 public class Bucket {

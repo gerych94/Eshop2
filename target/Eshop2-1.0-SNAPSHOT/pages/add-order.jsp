@@ -25,9 +25,5 @@
           Login of User: <input name="login" type="text"/></br>
                <input value="OK" type="submit" >
          </form>
-
-
-
-
 </body>
 </html>

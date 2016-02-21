@@ -20,6 +20,7 @@ import java.util.Date;
 /**
  * Created by Vitaliy on 21.08.2015.
  */
+
 @WebServlet(name="AddOrderServlet",value="/AddOrder")
 public class AddOrderServlet extends HttpServlet {
 

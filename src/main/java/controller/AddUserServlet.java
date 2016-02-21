@@ -14,6 +14,7 @@ import java.io.IOException;
 /**
  * Created by Vitaliy on 20.08.2015.
  */
+
 @WebServlet(name = "AddUserServlet" , value = "/AddUser")
 public class AddUserServlet extends HttpServlet {
       private IUserService userService;

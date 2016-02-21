@@ -6,9 +6,9 @@
 
         <property name="hbm2ddl.auto">update</property>
         <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
-        <property name="connection.url">jdbc:mysql://localhost:3306/ehop2</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/eshop2</property>
         <property name="connection.username">root</property>
-        <property name="connection.password">1111</property>
+        <property name="connection.password">root</property>
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
         <mapping class="model.Client"/>
     </session-factory>

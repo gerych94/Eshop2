@@ -10,6 +10,7 @@ import javax.persistence.Query;
 /**
  * Created by Vitaliy on 07.08.2015.
  */
+
 public class OrderDaoJPA implements IOrderDao {
 
 

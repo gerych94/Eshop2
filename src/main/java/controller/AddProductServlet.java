@@ -16,6 +16,7 @@ import java.io.IOException;
 /**
  * Created by Vitaliy on 21.08.2015.
  */
+
 @WebServlet(name="AddProductServlet",value = "/AddProduct")
 public class AddProductServlet extends HttpServlet {
 

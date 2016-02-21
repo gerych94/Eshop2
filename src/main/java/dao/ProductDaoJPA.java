@@ -65,8 +65,6 @@ public class ProductDaoJPA implements IProductDao {
     @Override
     public List<Product> findOne(String name) {
         entityManager.getTransaction().begin();
-
-
             Query query=entityManager.createQuery("from Product p where p.name='"+name+"'");
             List<Product> productList=query.getResultList();
             entityManager.getTransaction().commit();

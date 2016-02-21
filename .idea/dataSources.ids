@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - eshop2@localhost" uuid="991a31ce-4740-4faf-987a-8b487a190131">
+    <database-info product="MySQL" version="5.5.44-0ubuntu0.14.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <schema name="" catalog="eshop2"/>
+    <table name="admin" schema="" catalog="eshop2" type="TABLE">
+      <column name="admin_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="login" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="admin_id"/>
+    </table>
+    <table name="buckets" schema="" catalog="eshop2" type="TABLE">
+      <column name="id_Bucket" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="cost" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="date" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <primary-key name="PRIMARY" columns="id_Bucket"/>
+      <exported-key name="FK_936ca41808d44807b6e86487804" table="orders" schema="" catalog="eshop2" columns="id_Bucket"/>
+      <exported-key name="FK_d56243afb26144939f9e731d8e5" table="products_buckets" schema="" catalog="eshop2" columns="id_Bucket"/>
+    </table>
+    <table name="clients" schema="" catalog="eshop2" type="TABLE">
+      <column name="id_client" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="login" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="phone" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="email" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id_client"/>
+      <exported-key name="FK_649cb8f5b3d94f9c83fa3dc0816" table="orders" schema="" catalog="eshop2" columns="id_client"/>
+      <index name="unique_email" unique="true" columns="email"/>
+      <index name="unique_login" unique="true" columns="login"/>
+    </table>
+    <table name="orders" schema="" catalog="eshop2" type="TABLE">
+      <column name="id_Order" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="amount" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="dateCreation" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="orderStatus" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="id_Bucket" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="id_client" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id_Order"/>
+      <foreign-key name="FK_649cb8f5b3d94f9c83fa3dc0816" columns="id_client" ref-table="clients" ref-schema="" ref-catalog="eshop2" ref-columns="id_client" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="FK_936ca41808d44807b6e86487804" columns="id_Bucket" ref-table="buckets" ref-schema="" ref-catalog="eshop2" ref-columns="id_Bucket" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="FK_649cb8f5b3d94f9c83fa3dc0816" unique="false" columns="id_client"/>
+      <index name="FK_936ca41808d44807b6e86487804" unique="false" columns="id_Bucket"/>
+    </table>
+    <table name="products" schema="" catalog="eshop2" type="TABLE">
+      <column name="id_product" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="price" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="productType" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id_product"/>
+      <exported-key name="FK_5721aef2b70444f7ac8383a1ea4" table="products_buckets" schema="" catalog="eshop2" columns="id_product"/>
+    </table>
+    <table name="products_buckets" schema="" catalog="eshop2" type="TABLE">
+      <column name="id_Bucket" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="id_product" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <foreign-key name="FK_d56243afb26144939f9e731d8e5" columns="id_Bucket" ref-table="buckets" ref-schema="" ref-catalog="eshop2" ref-columns="id_Bucket" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="FK_5721aef2b70444f7ac8383a1ea4" columns="id_product" ref-table="products" ref-schema="" ref-catalog="eshop2" ref-columns="id_product" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="FK_5721aef2b70444f7ac8383a1ea4" unique="false" columns="id_product"/>
+      <index name="FK_d56243afb26144939f9e731d8e5" unique="false" columns="id_Bucket"/>
+    </table>
+  </data-source>
+</component>

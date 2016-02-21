@@ -15,8 +15,6 @@
 </head>
 <body>
       <%Admin admin=(Admin)request.getAttribute("admin"); %>
-
-
       <div class="nav">
        <div class="container" >
            <ul class="pull-left">
@@ -36,9 +34,8 @@
        </div>
         <div class="jumbotron">
             <div class="container">
-                <h1> Hello admin <%=admin.getLogin()%> in Online store Eshop2</h1>
+                <h1> Hello admin <%=admin.getLogin()%></h1>
             </div>
         </div>
-
 </body>
 </html>

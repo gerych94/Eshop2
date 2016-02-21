@@ -23,4 +23,10 @@ public class AdminService implements IAdminService {
     public void register(Admin admin) {
         iAdminDao.add(admin);
     }
+
+    @Override
+    public Admin getAdmin() {
+        return iAdminDao.getAdmin();
+    }
+
 }

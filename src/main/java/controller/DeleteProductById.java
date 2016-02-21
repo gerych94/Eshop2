@@ -16,6 +16,7 @@ import java.io.IOException;
 /**
  * Created by Vitaliy on 24.08.2015.
  */
+
 @WebServlet(name = "DeleteProductById",value = "/DeleteProductId")
 public class DeleteProductById extends HttpServlet {
 

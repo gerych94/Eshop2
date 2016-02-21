@@ -1,3 +1,4 @@
+<%@ page import="java.util.Random" %>
 <%--
   Created by IntelliJ IDEA.
   User: Vitaliy
@@ -12,7 +13,9 @@
     <title></title>
   </head>
   <body>
-
+        <%Random random=new Random();
+          int a=random.nextInt(10);
+        session.setAttribute("parametr",a);%>
      <form class="contact_form" action="../SignInAdmin",method="get" name="contact_form" >
        <ul>
          <li>
@@ -21,10 +24,9 @@
          </li>
           <li>Login:<input name="login" type="text" required/></li>
          <li> Password:<input name="password" type="password" required /></li>
-
+          <li>Input 2+<%=a%>:<input name="captcha" type="text" required></li>
          <li> <button class="submit" type="submit">OK</button></li>
          </ul>
      </form>
-
   </body>
 </html>
