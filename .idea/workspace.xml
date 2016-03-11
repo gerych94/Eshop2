@@ -2,145 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="725ae208-e85b-4b1e-b333-99b1b7cb91e3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_34.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_2_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_2_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_15_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_1_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_1_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/controller/SignInUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/error.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/logFile.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/signInUser.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/startPage.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/controller/AddBucketServlet.class" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/controller/AddBucketServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/AddBucketServlet.class" afterPath="$PROJECT_DIR$/target/classes/controller/AddBucketServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/controller/AddOrderServlet.class" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/controller/AddOrderServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/AddOrderServlet.class" afterPath="$PROJECT_DIR$/target/classes/controller/AddOrderServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/controller/AddProductServlet.class" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/controller/AddProductServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/AddProductServlet.class" afterPath="$PROJECT_DIR$/target/classes/controller/AddProductServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/controller/AddUserServlet.class" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/controller/AddUserServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/AddUserServlet.class" afterPath="$PROJECT_DIR$/target/classes/controller/AddUserServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/dao/AdminDaoJPA.class" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/dao/AdminDaoJPA.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/AdminDaoJPA.class" afterPath="$PROJECT_DIR$/target/classes/dao/AdminDaoJPA.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/service/AdminService.class" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/service/AdminService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/service/AdminService.class" afterPath="$PROJECT_DIR$/target/classes/service/AdminService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/model/Bucket.class" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/model/Bucket.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Bucket.class" afterPath="$PROJECT_DIR$/target/classes/model/Bucket.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/model/Client.class" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/model/Client.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Client.class" afterPath="$PROJECT_DIR$/target/classes/model/Client.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/utils/ConnectionFactory.class" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/utils/ConnectionFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utils/ConnectionFactory.class" afterPath="$PROJECT_DIR$/target/classes/utils/ConnectionFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/controller/DeleteProductById.class" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/controller/DeleteProductById.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/DeleteProductById.class" afterPath="$PROJECT_DIR$/target/classes/controller/DeleteProductById.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/controller/DeleteUserByIdServlet.class" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/controller/DeleteUserByIdServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/DeleteUserByIdServlet.class" afterPath="$PROJECT_DIR$/target/classes/controller/DeleteUserByIdServlet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/CloseKeys.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Lab7.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Logic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Massage.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/controller/NetCrackerSecretServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/controller/NetCrackerServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/OpenKeys.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index2.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/userForm.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/controller/FindAllUserServlet.class" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/controller/FindAllUserServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/FindAllUserServlet.class" afterPath="$PROJECT_DIR$/target/classes/controller/FindAllUserServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/controller/FindProductByIdServlet.class" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/controller/FindProductByIdServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/FindProductByIdServlet.class" afterPath="$PROJECT_DIR$/target/classes/controller/FindProductByIdServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/controller/FindProductByNameServlet.class" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/controller/FindProductByNameServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/FindProductByNameServlet.class" afterPath="$PROJECT_DIR$/target/classes/controller/FindProductByNameServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/controller/FindUserByIdServlet.class" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/controller/FindUserByIdServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/FindUserByIdServlet.class" afterPath="$PROJECT_DIR$/target/classes/controller/FindUserByIdServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/controller/FindUserByLoginServlet.class" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/controller/FindUserByLoginServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/FindUserByLoginServlet.class" afterPath="$PROJECT_DIR$/target/classes/controller/FindUserByLoginServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/dao/IAdminDao.class" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/dao/IAdminDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/IAdminDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/IAdminDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/service/IAdminService.class" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/service/IAdminService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/service/IAdminService.class" afterPath="$PROJECT_DIR$/target/classes/service/IAdminService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/controller/MyFirstServlet.class" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/controller/MyFirstServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/MyFirstServlet.class" afterPath="$PROJECT_DIR$/target/classes/controller/MyFirstServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/model/Order.class" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/model/Order.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Order.class" afterPath="$PROJECT_DIR$/target/classes/model/Order.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/dao/OrderDaoJPA.class" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/dao/OrderDaoJPA.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/OrderDaoJPA.class" afterPath="$PROJECT_DIR$/target/classes/dao/OrderDaoJPA.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/service/OrderService.class" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/service/OrderService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/service/OrderService.class" afterPath="$PROJECT_DIR$/target/classes/service/OrderService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/model/Product.class" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/model/Product.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Product.class" afterPath="$PROJECT_DIR$/target/classes/model/Product.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/dao/ProductDaoJPA.class" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/dao/ProductDaoJPA.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/ProductDaoJPA.class" afterPath="$PROJECT_DIR$/target/classes/dao/ProductDaoJPA.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/controller/ShowAllProductServlet.class" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/controller/ShowAllProductServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/ShowAllProductServlet.class" afterPath="$PROJECT_DIR$/target/classes/controller/ShowAllProductServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/TestEshop2.class" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/TestEshop2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/TestEshop2.class" afterPath="$PROJECT_DIR$/target/classes/TestEshop2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/AddBucketServlet.java" afterPath="$PROJECT_DIR$/src/main/java/controller/AddBucketServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/AddOrderServlet.java" afterPath="$PROJECT_DIR$/src/main/java/controller/AddOrderServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/AddProductServlet.java" afterPath="$PROJECT_DIR$/src/main/java/controller/AddProductServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/AddUserServlet.java" afterPath="$PROJECT_DIR$/src/main/java/controller/AddUserServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/AdminDaoJPA.java" afterPath="$PROJECT_DIR$/src/main/java/dao/AdminDaoJPA.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/AdminService.java" afterPath="$PROJECT_DIR$/src/main/java/service/AdminService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/Bucket.java" afterPath="$PROJECT_DIR$/src/main/java/model/Bucket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/Client.java" afterPath="$PROJECT_DIR$/src/main/java/model/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utils/ConnectionFactory.java" afterPath="$PROJECT_DIR$/src/main/java/utils/ConnectionFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/DeleteProductById.java" afterPath="$PROJECT_DIR$/src/main/java/controller/DeleteProductById.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/DeleteUserByIdServlet.java" afterPath="$PROJECT_DIR$/src/main/java/controller/DeleteUserByIdServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Eshop2.iml" afterPath="$PROJECT_DIR$/Eshop2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Eshop2_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Eshop2_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/FindAllUserServlet.java" afterPath="$PROJECT_DIR$/src/main/java/controller/FindAllUserServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/FindProductByIdServlet.java" afterPath="$PROJECT_DIR$/src/main/java/controller/FindProductByIdServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/FindProductByNameServlet.java" afterPath="$PROJECT_DIR$/src/main/java/controller/FindProductByNameServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/FindUserByIdServlet.java" afterPath="$PROJECT_DIR$/src/main/java/controller/FindUserByIdServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/FindUserByLoginServlet.java" afterPath="$PROJECT_DIR$/src/main/java/controller/FindUserByLoginServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/IAdminDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/IAdminDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/IAdminService.java" afterPath="$PROJECT_DIR$/src/main/java/service/IAdminService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/MyFirstServlet.java" afterPath="$PROJECT_DIR$/src/main/java/controller/MyFirstServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/Order.java" afterPath="$PROJECT_DIR$/src/main/java/model/Order.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/OrderDaoJPA.java" afterPath="$PROJECT_DIR$/src/main/java/dao/OrderDaoJPA.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/OrderService.java" afterPath="$PROJECT_DIR$/src/main/java/service/OrderService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/Product.java" afterPath="$PROJECT_DIR$/src/main/java/model/Product.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/ProductDaoJPA.java" afterPath="$PROJECT_DIR$/src/main/java/dao/ProductDaoJPA.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/ShowAllProductServlet.java" afterPath="$PROJECT_DIR$/src/main/java/controller/ShowAllProductServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/TestEshop2.java" afterPath="$PROJECT_DIR$/src/main/java/TestEshop2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/add-order.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/add-order.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/pages/add-order.jsp" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/pages/add-order.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/admin-page.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/admin-page.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/pages/admin-page.jsp" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/pages/admin-page.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/app-context.xml" afterPath="$PROJECT_DIR$/src/main/resources/app-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/app-context.xml" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/app-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/app-context.xml" afterPath="$PROJECT_DIR$/target/classes/app-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/index.jsp" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/user-page.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/user-page.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/pages/user-page.jsp" afterPath="$PROJECT_DIR$/target/Eshop2-1.0-SNAPSHOT/pages/user-page.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Eshop2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -183,51 +55,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyFirstServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/MyFirstServlet.java">
+      <file leaf-file-name="Lab7.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Lab7.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eshop2.clients" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/1034f4a1/991a31ce-4740-4faf-987a-8b487a190131/eshop2..clients">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SignInUser.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/SignInUser.java">
+      <file leaf-file-name="Logic.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Logic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74825174">
-              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            <state vertical-scroll-proportion="-1.0786517">
+              <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#4315#4316#0" expanded="true" />
+                <element signature="e#4386#4387#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -237,8 +84,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -253,12 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/model/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Bucket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/listener/MyContextListenerBucket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/listener/MyContextListenerOrder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/listener/MyContextListenerProduct.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/BucketService.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/IBucketService.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/IOrderService.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/IProductService.java" />
@@ -304,6 +145,12 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/MyFirstServlet.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/controller/SignInUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/NetCrackerServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/NetCrackerSecretServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/userForm.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index2.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/Lab7.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Logic.java" />
       </list>
     </option>
   </component>
@@ -383,7 +230,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -442,9 +288,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Eshop2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Eshop2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -458,14 +327,14 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="dynamic.classpath" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Courses" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
-  <component name="RunManager" selected="Tomcat Server.Eshop2">
+  <component name="RunManager" selected="Application.Lab7">
     <configuration default="false" name="TestEshop2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="TestEshop2" />
@@ -474,6 +343,21 @@
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Eshop2" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Lab7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Lab7" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -837,13 +721,15 @@
         </option>
       </method>
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Eshop2" />
       <item index="1" class="java.lang.String" itemvalue="Application.TestEshop2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Lab7" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestEshop2" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.Lab7" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestEshop2" />
       </list>
     </recent_temporary>
   </component>
@@ -893,11 +779,18 @@
       <workItem from="1455963029805" duration="7884000" />
       <workItem from="1455980184425" duration="5181000" />
       <workItem from="1456007054863" duration="1947000" />
+      <workItem from="1456149369347" duration="489000" />
+      <workItem from="1457014519639" duration="5238000" />
+      <workItem from="1457547136984" duration="8139000" />
+      <workItem from="1457600204460" duration="6925000" />
+      <workItem from="1457618855632" duration="3768000" />
+      <workItem from="1457626479634" duration="3532000" />
+      <workItem from="1457722878395" duration="6371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98730000" />
+    <option name="totallyTimeSpent" value="133192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="743" extended-state="0" />
@@ -912,19 +805,19 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19365609" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15098634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.063439064" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47579297" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24051593" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22685888" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42070118" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -945,7 +838,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -953,83 +848,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/IAdminDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4460177">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/AdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/IAdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4141593">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/BucketDaoJPA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64955753">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29616088">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AddBucketServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45521024">
-          <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/AdminDaoJPA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/add-product.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/OrderDaoJPA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.057692308">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/add-order.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6666667">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AddOrderServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/1034f4a1/991a31ce-4740-4faf-987a-8b487a190131/eshop2..buckets">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1053,13 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8697479">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1208,13 +1019,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/signInUser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6036697">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/ShowAllProductServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1250,13 +1054,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39405206">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/add-user.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.8518518">
@@ -1278,13 +1075,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/listener/MyContextListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1293,13 +1083,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/MyFirstServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logFile.log">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/SignInUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9372822">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1312,11 +1113,88 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/signInUser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5185184">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/listener/MyContextListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/MyFirstServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37247705">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/userForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1412844">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5944954">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/NetCrackerServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52797204">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/NetCrackerSecretServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37762237">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lab7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logFile.log">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/CloseKeys.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1324,20 +1202,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Massage.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/SignInUser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/OpenKeys.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74825174">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_60/src.zip!/java/math/BigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2434" column="0" selection-start-line="2434" selection-start-column="0" selection-end-line="2434" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Logic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0786517">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4315#4316#0" expanded="true" />
+            <element signature="e#4386#4387#0" expanded="true" />
           </folding>
         </state>
       </provider>
